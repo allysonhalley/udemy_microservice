@@ -2,7 +2,9 @@ package com.ms_course.hrpayroll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@EnableFeignClients
 @SpringBootApplication
 public class HrpayrollApplication {
 
@@ -11,3 +13,4 @@ public class HrpayrollApplication {
 	}
 
 }
+ 
